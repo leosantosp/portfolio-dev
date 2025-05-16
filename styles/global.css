@@ -37,7 +37,7 @@
 body {
     font: var(--text);
     color: var(--gray-500);
-    background-color: var(--gray-300);
+    background-color: var(--gray-200);
 }
 
 .container {
@@ -46,10 +46,3 @@ body {
     margin-inline: auto; /* Aplica margin apenas nas laterais */
 }
 
-.project-card {
-
-}
-
-.social-button {
-
-}
