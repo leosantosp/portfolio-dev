@@ -1,0 +1,81 @@
+.bg-ending-dev {
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+    text-align: center;
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 120px;
+    }
+
+    h1 {
+        font: var(--title-md);
+        color: var(--gray-600);
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font: var(--subtitle);
+        margin-bottom: 8px;
+        color: var(--purple);
+        
+    }
+
+    p {
+        max-width: 680px;
+        text-align: center;
+        font: var(--text);
+        color: var(--gray-400);
+    }
+
+    .links-list {
+        list-style-type: none;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+
+        a {
+            width: 100%;
+            background-color: var(--gray-300);
+            padding: 20px;
+            height: 68px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 5px;
+            text-decoration: none;
+
+            .icon-text {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                text-decoration: none;
+                color: var(--gray-500);
+            }
+
+            img {
+                width: 100%;
+                max-width: 28px;
+            }
+
+
+            span {
+                background-image: url(../assets/icons/arrow-up-right.svg);
+                background-size: cover;
+                width: 16px;
+                height: 16px;
+            }
+
+            &:hover span {
+                background-image: url(../assets/icons/arrow-up-right-hover.svg);
+            }
+        }
+    }
+}
